@@ -1,0 +1,109 @@
+:root {
+    --font-xs: 14px;
+    --font-sm: 18px;
+    --font-md: 22px;
+    --font-lg: 28px;
+    --font-xl: 36px;
+    --font-2xl: 48px;
+    --font-3xl: 96px;
+
+    --color-black: #0C0B0B;
+    --color-linear-gradient: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    --color-white: #fff;
+}
+
+
+@media (max-width:1599.98px) {
+    :root {
+        --font-sm: 18px;
+        --font-md: 22px;
+        --font-lg: 28px;
+        --font-xl: 36px;
+        --font-2xl: 48px;
+        --font-3xl: 96px;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --font-xs: 14px;
+        --font-sm: 18px;
+        --font-md: 22px;
+        --font-lg: 28px;
+        --font-xl: 36px;
+        --font-2xl: 48px;
+        --font-3xl: 96px;
+    }
+}
+
+
+/* FONT WEIGHT STYLES  */
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+/* FONT SIZES STYLES  */
+
+.font-xs {
+    font-size: var(--font-xs);
+}
+
+.font-sm {
+    font-size: var(--font-sm);
+}
+
+.font-md {
+    font-size: var(--font-md);
+}
+
+.font-lg {
+    font-size: var(--font-lg);
+}
+
+.font-xl {
+    font-size: var(--font-xl);
+}
+
+.font-2xl {
+    font-size: var(--font-2xl);
+}
+
+.font-3xl {
+    font-size: var(--font-3xl);
+}
+
+
+/* COMMON REUSABLE CLASSES  */
+
+.main-heading {
+    font-size: var(--font-3xl);
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.heading {
+    font-size: var(--font-2xl);
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.sub-heading {
+    font-size: var(--font-xl);
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.paragraph-text {
+    font-size: var(--font-sm);
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
