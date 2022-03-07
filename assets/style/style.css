@@ -1,3 +1,7 @@
+body {
+    background-color: #0C0B0B;
+}
+
 :root {
     --font-xs: 14px;
     --font-sm: 18px;
@@ -106,4 +110,51 @@
     font-size: var(--font-sm);
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+/* NAVBAR STYLE  */
+
+
+.nav-list-items a {
+    font-size: var(--font-sm);
+    font-weight: 400;
+    color: var(--color-white);
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-list-items a::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: var(--color-white);
+    transition: 0.3s ease;
+}
+
+.nav-list-items a:hover::after {
+    width: 100%;
+}
+
+.nav-logo {
+    font-size: var(--font-xl);
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+.common-btn {
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 30px;
+    color: var(--color-white);
+    font-size: var(--font-sm);
+}
+
+.common-btn:hover {
+    background: linear-gradient(10deg, #FFA800 10%, #F06500 100%);
 }
