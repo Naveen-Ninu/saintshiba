@@ -22,13 +22,22 @@
     <nav class="py-3">
         <div class="container">
             <div class="row">
+                <!-- AFTER 992  -->
                 <div class="col d-flex justify-content-between align-items-center">
 
                     <!-- SHIBA LOGO  -->
                     <h2 class="nav-logo">Saint<span>Shiba</span> </h2>
 
+
+                    <!-- HAMBURGER ICON  -->
+
+                    <div class="hamburger d-lg-none">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <!-- NAV LIST ITEMS  + CONNECT WALLET   BUTTON  -->
-                    <div class="d-flex align-items-center">
+                    <div class="d-none   d-lg-flex align-items-center">
                         <ul class="m-0 nav-list-items d-flex list-unstyled">
                             <li class="mx-3">
                                 <a href="#home">Home</a>
@@ -50,6 +59,38 @@
                         <button class="common-btn ms-3">Connect Wallet</button>
                     </div>
                 </div>
+
+                <!-- BEFORE 992  -->
+                <!-- OVERLAY  -->
+
+
+                <div class="overlay d-lg-none">
+                    <!-- NAV LIST ITEMS  + CONNECT WALLET   BUTTON  -->
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                        <ul class="m-0 nav-list-items d-flex flex-column align-items-center list-unstyled">
+                            <li class="mb-4">
+                                <a href="#home">Home</a>
+                            </li>
+                            <li class="my-4">
+                                <a href="#about">About</a>
+                            </li>
+                            <li class="my-4">
+                                <a href="#tokenomics">Tokenomics</a>
+                            </li>
+                            <li class="my-4">
+                                <a href="#howtobuy">How to buy</a>
+                            </li>
+                            <li class="my-4">
+                                <a href="#faq">FAQ</a>
+                            </li>
+                        </ul>
+
+                        <button class="common-btn ms-3">Connect Wallet</button>
+                    </div>
+
+                </div>
+
+
             </div>
         </div>
     </nav>

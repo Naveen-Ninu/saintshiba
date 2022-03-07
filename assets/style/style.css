@@ -158,3 +158,34 @@ body {
 .common-btn:hover {
     background: linear-gradient(10deg, #FFA800 10%, #F06500 100%);
 }
+
+
+/* OVERLAY STYLE  */
+@media (max-width:991.98px) {
+    .overlay {
+        position: fixed;
+        background: #f0640094;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .hamburger {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        background-color: white;
+        height: 2px;
+        width: 100%;
+        display: inline-block;
+    }
+}
